@@ -1,0 +1,42 @@
+.baraja-demo {
+	width: 200px;
+	margin: 30px auto;
+	color: #aaa;
+}
+
+.no-js .baraja-demo {
+	width: auto;
+}
+
+.baraja-demo h4 {
+	color: #666;
+	font-size: 14px;
+	padding: 8px 10px 5px;
+	margin: 20px 3px 5px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.baraja-demo p {
+	font-size: 12px;
+	font-weight: 700;
+	padding: 0 10px;
+	margin: 10px 3px 0;
+}
+
+.baraja-demo ul.baraja-container li {
+	border-radius: 10px;
+	padding: 5px;
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.08);
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.baraja-demo li img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
