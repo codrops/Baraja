@@ -8,15 +8,14 @@
  * Copyright 2012, Codrops
  * http://www.codrops.com
  */
-
-jQuery.fn.reverse = [].reverse;
-
 ;( function( $, window, undefined ) {
 	
 	'use strict';
 
 	// global
 	var Modernizr = window.Modernizr;
+
+	jQuery.fn.reverse = [].reverse;
 
 	$.Baraja = function( options, element ) {
 		
